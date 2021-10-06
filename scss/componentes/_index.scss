@@ -1,0 +1,68 @@
+/*  SECTION MAS VENDIDOS    */
+section{
+    background-color: $color-black;
+    h1{
+        color: $color-limon;
+        padding: .5em 0;
+        text-align: center;
+        font-size: 3em;
+        font-family: $tipografia-secundaria;
+    }
+    h2{
+        color: $color-azul;
+        font-size: 2em;
+        text-align: center;
+        padding: 0 0 2em 0;
+    }
+    div.contenedor-index{
+        display: flex;
+        padding: 0 2em;
+        div.conten-contendor{
+            text-align: center;
+            color: $color-celeste;
+            img{
+                width: 23em;
+                height: 40em;
+                padding: 0 .5em;
+                object-fit: cover;
+            }
+            h3{
+                color: $color-lila;
+                font-size: 1.5em;
+                font-family: $tipografia-principal;
+                padding: 1em 0;
+            }
+            h4{
+                color: $color-lila;
+                font-size: 1.2em;
+                font-family: $tipografia-principal;
+                padding: 0 0 .5em 0;
+            }
+            h5{
+                color: $color-lila;
+                font-size: 1em;
+                font-family: $tipografia-principal;
+                padding: .7em 0;
+            }
+            a{
+                list-style-type: none;
+                text-decoration: none;
+                color: $color-limon;
+                font-size: 2em;
+                font-family: $tipografia-secundaria;
+            }
+            
+
+        }
+    }
+    a.vermas-productos{
+        list-style-type: none;
+        text-decoration: none;
+        color: $color-oscuro;
+        font-size: 2em;
+        font-family: $tipografia-secundaria;
+        display: block;
+        text-align: center;
+        padding: 2em 0;
+    }
+}

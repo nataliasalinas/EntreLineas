@@ -1,0 +1,63 @@
+/* INDEX.HTML */
+/* HEADER */
+
+header{
+    background-image: url(../../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+
+    div.bnt-user{
+        text-align: right;
+        padding: 2em;
+
+        i{
+            font-size: 3em;
+            color: $color-white;
+            padding: 0 .5em;
+            &:hover{
+                color: $color-rosaclaro;
+                transition: 1.5s;
+            }
+        }
+    }
+    img{
+        width: 30em;
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 2.6em 0;
+        a{
+            list-style-type: none;
+            text-decoration: none;
+            color: $color-white;
+            background-color: $color-black;
+            padding: .5em 1.5em;
+            margin: 0 1.5em;
+            font-size: 1.5em;
+            font-family: $tipografia-secundaria;
+            border-radius: 1em;
+            &:hover{
+                color: $color-black;
+                background-color: $color-white;
+                transition: 1.5s;
+            }
+        }
+    }
+    p{
+        display: inline-block;
+        width: 70%;
+        color: $color-rosaclaro;
+        font-family: $tipografia-secundaria;
+        font-size: 2em;
+        padding: 1em 0;
+        span{
+            font-style: italic;
+            font-size: .7em;
+        }
+    }
+
+
+}
+/* HEADER */

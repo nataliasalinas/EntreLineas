@@ -1,0 +1,22 @@
+/* FOOTER */
+footer{
+    background-color: $color-oscuro;
+    height: 10em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    img{
+        width: 60%;
+    }
+    h3{
+        font-family: $tipografia-secundaria;
+        color: $color-limon;
+        text-align: center;
+        span{
+            font-style: italic;
+        }
+    }
+}
+/* FOOTER */
