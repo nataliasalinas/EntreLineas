@@ -3,17 +3,18 @@
 /* INDEX.HTML */
 /* HEADER */
 header {
-  background-image: url(../../img/1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   text-align: center;
 }
 header div.bnt-user {
   text-align: right;
   padding: 2em;
+  list-style-type: none;
+  text-decoration: none;
 }
 header div.bnt-user i {
+  list-style-type: none;
+  text-decoration: none;
   font-size: 3em;
   color: #fff;
   padding: 0 0.5em;
@@ -21,6 +22,13 @@ header div.bnt-user i {
 header div.bnt-user i:hover {
   color: #E6928A;
   transition: 1.5s;
+}
+header div.carousel-css {
+  padding: 0;
+  margin: 0;
+  width: 99vw;
+  height: 100vh;
+  z-index: -1000;
 }
 header img {
   width: 30em;
@@ -83,9 +91,6 @@ footer h3 span {
 
 /* FOOTER */
 /*  SECTION MAS VENDIDOS    */
-section {
-  background-color: #000;
-}
 section h1 {
   color: #FCDE9B;
   padding: 0.5em 0;
@@ -114,19 +119,19 @@ section div.contenedor-index div.conten-contendor img {
   object-fit: cover;
 }
 section div.contenedor-index div.conten-contendor h3 {
-  color: #D1BAC4;
+  color: #000;
   font-size: 1.5em;
   font-family: "Sarabun", sans-serif;
   padding: 1em 0;
 }
 section div.contenedor-index div.conten-contendor h4 {
-  color: #D1BAC4;
+  color: #000;
   font-size: 1.2em;
   font-family: "Sarabun", sans-serif;
   padding: 0 0 0.5em 0;
 }
 section div.contenedor-index div.conten-contendor h5 {
-  color: #D1BAC4;
+  color: #000;
   font-size: 1em;
   font-family: "Sarabun", sans-serif;
   padding: 0.7em 0;
@@ -134,7 +139,7 @@ section div.contenedor-index div.conten-contendor h5 {
 section div.contenedor-index div.conten-contendor a {
   list-style-type: none;
   text-decoration: none;
-  color: #FCDE9B;
+  color: #31404F;
   font-size: 2em;
   font-family: "Krub", sans-serif;
 }
@@ -157,6 +162,13 @@ section a.vermas-productos {
 
 section {
   font-size: 12px;
+}
+
+body.darkmode {
+  background-color: #000;
+}
+body.darkmode section h3, body.darkmode section h4, body.darkmode section h5 {
+  color: #FCDE9B !important;
 }
 
 /*# sourceMappingURL=style.css.map */

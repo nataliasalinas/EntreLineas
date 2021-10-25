@@ -6,11 +6,12 @@
 // NUEVOS USUARIOS
 
 class nuevoUsuario{
-    constructor(nombre, apellido, edad, usuario, contraseña){
+    constructor(nombre, apellido, edad, usuario, email, contraseña){
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.usuario = usuario;
+        this.email = email;
         this.contraseña = contraseña;
     }
 
@@ -24,9 +25,10 @@ const regristrarse = () => {
     let apellido = prompt("Ingrese su apellido");
     let edad = Number(prompt("Ingrese su edad"));
     let usuario = prompt("Ingrese su usuario");
+    let email = prompt("Ingrese su email");
     let contraseña = prompt("Ingrese su contraseña");
 
-    const usuarioNuevo = new nuevoUsuario(nombre, apellido,edad,usuario,contraseña);
+    const usuarioNuevo = new nuevoUsuario(nombre, apellido,edad,usuario, email, contraseña);
     console.log(usuarioNuevo);
 
     UsuariosRegistrados.push(usuarioNuevo);
@@ -112,7 +114,6 @@ const cargarLibro = () => {
 
     librosDisponibles.push(libroNuevo);
 }
-
 //CARGA DE LIBROS
 
 //      FILTROS

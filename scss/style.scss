@@ -14,3 +14,12 @@
 section{
     font-size: 12px;
 }
+
+body.darkmode{
+    background-color: #000;
+    section{
+        h3, h4, h5{
+            color: $color-limon !important;
+        } 
+    }
+}

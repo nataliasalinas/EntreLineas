@@ -1,6 +1,5 @@
 /*  SECTION MAS VENDIDOS    */
 section{
-    background-color: $color-black;
     h1{
         color: $color-limon;
         padding: .5em 0;
@@ -27,19 +26,19 @@ section{
                 object-fit: cover;
             }
             h3{
-                color: $color-lila;
+                color: $color-black;
                 font-size: 1.5em;
                 font-family: $tipografia-principal;
                 padding: 1em 0;
             }
             h4{
-                color: $color-lila;
+                color: $color-black;
                 font-size: 1.2em;
                 font-family: $tipografia-principal;
                 padding: 0 0 .5em 0;
             }
             h5{
-                color: $color-lila;
+                color: $color-black;
                 font-size: 1em;
                 font-family: $tipografia-principal;
                 padding: .7em 0;
@@ -47,7 +46,7 @@ section{
             a{
                 list-style-type: none;
                 text-decoration: none;
-                color: $color-limon;
+                color: $color-oscuro;
                 font-size: 2em;
                 font-family: $tipografia-secundaria;
             }
